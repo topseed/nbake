@@ -53,6 +53,7 @@ There is superset project (Apache 2 license) that allows you to build in the clo
  - http://github.com/topseed/nbake-admin
 Admin superset requires deployment to AWS S3. Here is the link to S3 deployment:
 - http://github.com/topseed/nbake-user/blob/master/S3.md
+
 You can use FTP (ex: CyberDuck) in nbake cli to deploy to AWS S3 (with an 'IAM' id, key, secret and bucket name).
 It is recommended that you start using the admin project as soon as you feel comfortable with nbake and S3.
 
