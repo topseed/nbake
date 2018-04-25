@@ -68,3 +68,5 @@ Commercial support, hosting, training, plugins and conulting is optional, by:
 - http://narwhalstar.com
 or
 - http://wordpug.com
+
+Note that admin is Apache license, and you to could/should consider supporting it.
