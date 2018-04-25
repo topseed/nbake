@@ -79,11 +79,10 @@ Steps at high level
 - Create S3 user
 - In IAM create a group 'full access to s3'
 - FTP a simple website.
-- Go back to S3 menu. In properties, make it a website. It gives you an url.
-
+- Configure the http cache - using an S3 Gui
+- Go back to S3 menu. In properties, make it a website. It gives you an url. Your CDN should point to this, and your DNS should point to your CDN.
 
 It is recommended that you start using the admin project as soon as you feel comfortable with nbake and S3.
-
 
 The sample app uses http://semantic-ui.com framework, but you can use any ( http://keycdn.com/blog/front-end-frameworks )
 
