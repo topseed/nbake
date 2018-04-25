@@ -9,6 +9,8 @@ http://nbake.org
 Staticaly generated markup, Pug.
 Similar to markdown or Haml, or other staticly genererated tools.
 
+The extra power of nbake can be used is to 'tell the story better', by being more interactive in your UX. The better UX translates to more user engamgnet and more user retention. 
+
 We assume that everyone is web litterate, ex:
 ' Design and Build Websites ' by Jon Duckett
 
