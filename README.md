@@ -1,22 +1,21 @@
 # nbake
 nbake cli home
 
-Mission: Every 10 years or so tech gets 10X better *FORCING* upgrades. Ex: Assembly is 10x better
-than machine. C is 10X better than Assembly. Our mission is: what is 10X better than LAMP used to build WordPress and such. We think we found the answer:
+Mission: Every 10 years or so tech gets 10 times better *FORCING* upgrades. Assembly was 10 times better than machine. C is 10 times better than Assembly. Our mission is to deliver what is 10 times better than LAMP, the technology WordPress was built on. We believe that we found the answer:
 
 http://nbake.org
 
-Staticaly generated markup, Pug.
-Similar to markdown or Haml, or other staticly genererated tools.
+It uses statically generated markup, Pug.
+Similar to Markdown or Haml, or other staticly genererated tools.
 
-It assumes you'll learn Pug:
+We assume that you will learn Pug:
 
 - http://youtube.com/watch?v=wzAWI9h3q18
 
 
-Supports:
-- Pug static data binding and dynamic data biniding.
-- Blog | any item.
+Nbake supports:
+- Pug static and dynamic data binding
+- Blog | any item
 - Plugins ( http://github.com/topseed/nbake-plugins )
 
 You can install via npm (or yarn).
@@ -28,30 +27,31 @@ To create a sample app:
 		//and then you can make pug via
 		nbake .
 
-It requires meta.yaml in each folder. Ex:
+It requires meta.yaml in each folder. For example:
 
-		title = Oh hi
-		baseddir = ..
-
-
-In windows you have to node $Env:userprofile/WHERE-YOUR-INSTALLED/node_modules/nbake/nbake.js .
+		basedir : ..
+		title : Oh hi
 
 
-It internaly uses loadjs, nothing else other than Pug and loadjs is mandatory.
+In Windows you have to node $Env:userprofile/WHERE-YOU-ARE-INSTALLED/node_modules/nbake/nbake.js .
+
+If you are using a Powershell terminal, you can repeat previous commands with [Cursor-Up], and get that command back.
+
+The nbake examples use loadjs. No other technology than Pug and loadjs is mandatory.
 
 - http://github.com/muicss/loadjs
 
 
-There is supper set project (Apache 2 license) that allows you to build in the cloud by for using the web admin, a bit like WordPress admin, here:
+There is superset project (Apache 2 license) that allows you to build in the cloud by for using the web admin, a bit like WordPress admin, here:
  - http://github.com/topseed/nbake-admin
-Admin super set requires deployment to AWS S3.
-You can use FTP (ex: CyberDuck) in nbake cli to deploy to AWS S3 (with an 'IAM' id, key, secret and bucket name). It is recomended that you start using that project as well as soon as you deel comfortable with nbake.
+Admin superset requires deployment to AWS S3.
+You can use FTP (ex: CyberDuck) in nbake cli to deploy to AWS S3 (with an 'IAM' id, key, secret and bucket name). It is recommended that you start using that project as well as soon as you feel comfortable with nbake.
 
 
-Sample app uses http://semantic-ui.com framework, but you can use any ( http://keycdn.com/blog/front-end-frameworks )
+The sample app uses http://semantic-ui.com framework, but you can use any ( http://keycdn.com/blog/front-end-frameworks )
 
 
-Supports native appstore (IOS, Andorid) https://github.com/topseed/nabke-native-appstore
+Nbake supports native appstore (IOS, Andorid) https://github.com/topseed/nbake-native-appstore
 
 
 Source code is here http://github.com/topseed/nbake-src, other nbake projects are here:
@@ -59,7 +59,7 @@ Source code is here http://github.com/topseed/nbake-src, other nbake projects ar
 
 Feel free to oppen an ticket here for any help.
 
-Commercial support, hosting, training, plugins and conulting is optional, by:
+Commercial support, hosting, training, plugins and consulting are provided by:
 - http://narwhalstar.com
 or
 - http://wordpug.com
