@@ -1,13 +1,16 @@
 # nbake
 nbake cli home
 
-Mission: Every 10 years or so tech gets 10X better *FORCING* upgrades. Ex: Assembly is 10x better
+Mission: Every 10 years or so tech gets 10X better *FORCING* everyone to upgrade! Ex: Assembly is 10x better
 than machine. C is 10X better than Assembly. Our mission is: what is 10X better than LAMP used to build WordPress and such. We think we found the answer:
 
 http://nbake.org
 
 Staticaly generated markup, Pug.
 Similar to markdown or Haml, or other staticly genererated tools.
+
+We assume that everyone is web litterate, ex:
+' Design and Build Websites ' by Jon Duckett
 
 It assumes you'll learn Pug:
 
@@ -34,7 +37,9 @@ It requires meta.yaml in each folder. Ex:
 		baseddir = ..
 
 
-In windows you have to node $Env:userprofile/WHERE-YOUR-INSTALLED/node_modules/nbake/nbake.js .
+In windows you have to:
+
+	 node $Env:userprofile/WHERE-YOU-INSTALLED/node_modules/nbake/nbake.js .
 
 
 It internaly uses loadjs, nothing else other than Pug and loadjs is mandatory.
