@@ -1,24 +1,31 @@
 # admin
 
-10 commandments for confident tech manager
+## 10 commandments for confident tech manager
 
-foundation:
+foundation, serverless and markup
 
 - use markdown, or better markup
 - css, dom and load
 - ftp to deploy
 - blog
+- app shell
+- static/dynamic
+
+b&m and UX:
+
 - seo, amp
-
-b&m:
-
 - shared development enviroment
-- mobile first = cross platform - pwa
-- auth
-
-prespctive
-
-- crud
+- mobile  app store first = cross platform - pwa
+- admin/add page
 - fts is first class citizen
+- logging
+
+perpsecve and cost cutting
+
+- crud - reduce
+- auth
 - ecom
 - interactions
+- make a plugin
+
+- 0 full stack/ algol / JSX

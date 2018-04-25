@@ -8,7 +8,7 @@ http://nbake.org
 It uses statically generated markup, Pug.
 Similar to Markdown or Haml, or other staticly genererated tools.
 
-The extra power of nbake can be used to 'tell the story better', by being more interactive in your UX. The better UX translates to more user engamgnet and more user retention. 
+The extra power of nbake can be used to 'tell the story better', by being more interactive in your UX. The better UX translates to more user engamgnet and more user retention.
 
 We assume that everyone is web literate, for example:
 ' Design and Build Websites ' by Jon Duckett
@@ -51,8 +51,25 @@ The nbake examples use loadjs. No other technology than Pug and loadjs is mandat
 
 There is superset project (Apache 2 license) that allows you to build in the cloud by for using the web admin, a bit like WordPress admin, here:
  - http://github.com/topseed/nbake-admin
-Admin superset requires deployment to AWS S3.
-You can use FTP (ex: CyberDuck) in nbake cli to deploy to AWS S3 (with an 'IAM' id, key, secret and bucket name). It is recommended that you start using that project as well as soon as you feel comfortable with nbake.
+Admin superset requires deployment to AWS S3. Ex policy, replace 'exapp' with your bucket name:
+
+		{
+			"Version": "2012-10-17",
+			"Statement": [
+				{
+						"Sid": "AddPerm",
+						"Effect": "Allow",
+						"Principal": "*",
+						"Action": "s3:GetObject",
+						"Resource": "arn:aws:s3:::exapp/*"
+				}
+			]
+		}
+
+You can use FTP (ex: CyberDuck) in nbake cli to deploy to AWS S3 (with an 'IAM' id, key, secret and bucket name). Try to FTP and to
+and to access an S3 hosted website.
+
+It is recommended that you start using the admin project as well as soon as you feel comfortable with nbake.
 
 
 The sample app uses http://semantic-ui.com framework, but you can use any ( http://keycdn.com/blog/front-end-frameworks )
