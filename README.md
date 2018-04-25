@@ -51,7 +51,15 @@ The nbake examples use loadjs. No other technology than Pug and loadjs is mandat
 
 There is superset project (Apache 2 license) that allows you to build in the cloud by for using the web admin, a bit like WordPress admin, here:
  - http://github.com/topseed/nbake-admin
-Admin superset requires deployment to AWS S3. Ex policy, replace 'exapp' with your bucket name:
+Admin superset requires deployment to AWS S3.
+
+You can use FTP (ex: CyberDuck) in nbake cli to deploy to AWS S3 (with an 'IAM' id, key, secret and bucket name). Try to FTP and to
+and to access an S3 hosted website. First time you setup to host a website on S3 takes about an hour. After you do a few, it is
+10 minutes.
+
+Steps at high level
+- Create S3 bucket
+- Ex policy, replace 'exapp' with your bucket name:
 
 		{
 			"Version": "2012-10-17",
@@ -66,12 +74,6 @@ Admin superset requires deployment to AWS S3. Ex policy, replace 'exapp' with yo
 			]
 		}
 
-You can use FTP (ex: CyberDuck) in nbake cli to deploy to AWS S3 (with an 'IAM' id, key, secret and bucket name). Try to FTP and to
-and to access an S3 hosted website. First time you setup to host a website on S3 takes about an hour. After you do a few, it is
-10 minutes.
-
-Steps at high level
-- Create S3 bucket
 - Go to IAM to create a user of S3
 - Certate a key and secret code. Store this information.
 - Create S3 user
