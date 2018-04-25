@@ -2,11 +2,19 @@
 nbake cli home
 
 Mission: Every 10 years or so tech gets 10 times better *FORCING* upgrades. Assembly was 10 times better than machine. C is 10 times better than Assembly. Our mission is to deliver what is 10 times better than LAMP, the technology WordPress was built on. We believe that we found the answer:
+Mission: Every 10 years or so tech gets 10X better *FORCING* everyone to upgrade! Ex: Assembly is 10x better
+than machine. C is 10X better than Assembly. Our mission is: what is 10X better than LAMP used to build WordPress and such. We think we found the answer:
 
 http://nbake.org
 
 It uses statically generated markup, Pug.
 Similar to Markdown or Haml, or other staticly genererated tools.
+
+
+The extra power of nbake can be used is to 'tell the story better', by being more interactive in your UX. The better UX translates to more user engamgnet and more user retention. 
+
+We assume that everyone is web litterate, ex:
+' Design and Build Websites ' by Jon Duckett
 
 We assume that you will learn Pug:
 
@@ -33,7 +41,9 @@ It requires meta.yaml in each folder. For example:
 		title : Oh hi
 
 
-In Windows you have to node $Env:userprofile/WHERE-YOU-ARE-INSTALLED/node_modules/nbake/nbake.js .
+In windows you have to:
+
+	 node $Env:userprofile/WHERE-YOU-INSTALLED/node_modules/nbake/nbake.js .
 
 If you are using a Powershell terminal, you can repeat previous commands with [Cursor-Up], and get that command back.
 
@@ -63,3 +73,5 @@ Commercial support, hosting, training, plugins and consulting are provided by:
 - http://narwhalstar.com
 or
 - http://wordpug.com
+
+Note that admin is Apache license, and you to could/should consider supporting it.
