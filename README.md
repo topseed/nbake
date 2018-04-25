@@ -67,9 +67,20 @@ Admin superset requires deployment to AWS S3. Ex policy, replace 'exapp' with yo
 		}
 
 You can use FTP (ex: CyberDuck) in nbake cli to deploy to AWS S3 (with an 'IAM' id, key, secret and bucket name). Try to FTP and to
-and to access an S3 hosted website.
+and to access an S3 hosted website. First time you setup to host a website on S3 takes about an hour. After you do a few, it is
+10 minutes.
 
-It is recommended that you start using the admin project as well as soon as you feel comfortable with nbake.
+Steps at high level
+- Create S3 bucket
+- Go to IAM to create a user of S3
+- Certate a key and secret code. Store this information.
+- Create S3 user
+- In IAM create a group 'full access to s3'
+- FTP a simple website.
+- Go back to S3 menu. In properties, make it a website. It gives you an url.
+
+
+It is recommended that you start using the admin project as soon as you feel comfortable with nbake and S3.
 
 
 The sample app uses http://semantic-ui.com framework, but you can use any ( http://keycdn.com/blog/front-end-frameworks )
