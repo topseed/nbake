@@ -1,6 +1,7 @@
 # admin
 
-## 10 points for the confident tech manager:
+### Agenda:
+## 8 points/commandments for the confident tech manager by example:
 
 ### foundation, serverless and markup
 HW: Create S3 account.
@@ -11,6 +12,7 @@ HW: Create S3 account.
 - app shell
 - static/dynamic
 - eschew programming
+- customize semnatic
 
 ### b&m and UX:
 HW: Install Docker on a host in the Cloud.
@@ -28,3 +30,4 @@ HW: Install Docker on a host in the Cloud.
 - interactions
 - make a plugin
 - 0 full stack/ algol | JSX
+- prior (LAMP) generation
