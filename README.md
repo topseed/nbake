@@ -14,7 +14,7 @@ We assume that everyone is web literate, for example:
 ' Design and Build Websites ' by Jon Duckett
 
 We also assume that you will learn Pug:
-
+![Image of Pug]( https://camo.githubusercontent.com/a43de8ca816e78b1c2666f7696f449b2eeddbeca/68747470733a2f2f63646e2e7261776769742e636f6d2f7075676a732f7075672d6c6f676f2f656563343336636565386664396431373236643738333963626539396431663639343639326330632f5356472f7075672d66696e616c2d6c6f676f2d5f2d636f6c6f75722d3132382e737667  )
 - http://youtube.com/watch?v=wzAWI9h3q18
 
 
@@ -55,7 +55,7 @@ There is superset project (Apache 2 license) that allows you to build in the clo
  - http://github.com/topseed/nbake-admin
 Admin superset requires deployment to AWS S3. Here is the link to S3 deployment:
 - http://github.com/topseed/nbake-user/blob/master/S3.md
-While admin module is recommended, it is strongly recommened that you host on S3 anyway - cost is cheap for one, and no http server. Especially if you deal with more than one domain|subdomain: just crate a bucket instead of server. 
+While admin module is recommended, it is strongly recommened that you host on S3 anyway - cost is cheap for one, and no http server. Especially if you deal with more than one domain|subdomain: just crate a bucket instead of server.
 
 You can use FTP (ex: CyberDuck) in nbake cli to deploy to AWS S3 (with an 'IAM' key, secret and bucket name).
 It is recommended that you start using the admin project as soon as you feel comfortable with nbake and S3.
