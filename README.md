@@ -1,14 +1,14 @@
 # nbake
 nbake cli home
 
-Mission: Every 10 years or so tech gets 10 times better *FORCING* everyone to upgrade. Assembly was 10 times better than machine. C is 10 times better than Assembly. Our mission is to deliver what is 10 times better than LAMP, the technology WordPress was built on. We believe that we found the answer:
+Mission: Every 10 years or so tech gets 10 times better *FORCING* everyone to upgrade. Assembly was 10 times better than machine lagunage. C is 10 times better than Assembly. Our mission is to deliver what is 10 times better than LAMP, the technology WordPress was built on. We believe that we found the answer:
 
 http://nbake.org
 
 It uses statically generated markup, Pug.
 Similar to Markdown or Haml, or other staticly genererated tools.
 
-The extra power of nbake can be used to 'tell the story better', by being more interactive in your UX. The better UX translates to more user engamgnet and more user retention.
+The extra power of nbake can be used to 'tell the story better', by being more interactive in your UX. Experience shows that better UX translates to more user engamgnet and higher user retention.
 
 We assume that everyone is web literate, for example:
 ' Design and Build Websites ' by Jon Duckett
@@ -22,6 +22,8 @@ Nbake supports:
 - Pug static and dynamic data binding
 - Blog | any item
 - Plugins ( http://github.com/topseed/nbake-plugins )
+- Native appstore (IOS/Andorid) http://github.com/topseed/nbake-native-app-store
+- SEO, FTS, User Auth, DB CRUD, Routers, AMP, etc.
 
 You can install via npm (or yarn).
 
@@ -53,7 +55,7 @@ There is superset project (Apache 2 license) that allows you to build in the clo
  - http://github.com/topseed/nbake-admin
 Admin superset requires deployment to AWS S3. Here is the link to S3 deployment:
 - http://github.com/topseed/nbake-user/blob/master/S3.md
-While admin module is recommended, it is strongly recommened that you host on S3 anyway - cost is cheap for one, and no http server.
+While admin module is recommended, it is strongly recommened that you host on S3 anyway - cost is cheap for one, and no http server. Especially if you deal with more than one domain|subdomain: just crate a bucket instead of server. 
 
 You can use FTP (ex: CyberDuck) in nbake cli to deploy to AWS S3 (with an 'IAM' key, secret and bucket name).
 It is recommended that you start using the admin project as soon as you feel comfortable with nbake and S3.
@@ -65,7 +67,7 @@ Nbake supports native appstore (IOS, Andorid) https://github.com/topseed/nbake-n
 
 
 Source code is here http://github.com/topseed/nbake-src, other nbake projects are here:
-- https://github.com/topseed
+- http://github.com/topseed
 
 Feel free to oppen an ticket here for any help.
 
