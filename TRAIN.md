@@ -1,33 +1,32 @@
-# admin
 
-### Agenda:
-## 8 points/commandments for the confident tech manager by example:
+## 10 commandments for the confident tech manager, by example:
 
 ### foundation, serverless and markup
-HW: Create S3 account.
-- use markdown, or better markup
-- css, dom and load
-- ftp to deploy
-- blog
-- app shell
-- static/dynamic
-- eschew programming
-- customize semnatic
+Student HW: Create S3 account.
+- Markdown vs markup via Pug
+- Serverless FTP Deploy to S3, CDN77
+- Static binding /blog
+- Webmaster by google, demo AMP via pug
+- Serverless Auth with FireBase, secure some pages for members only
+- Dynamic binding with pug, w/ FireBase call
 
 ### b&m and UX:
-HW: Install Docker on a host in the Cloud.
-- seo, amp
-- shared development enviroment
-- mobile  app store first = cross platform - pwa
-- admin/add page
-- fts
-- logging
+Student HW: Install Docker service on a host in the Cloud. Vultr has Windows
+- Use a plugin
+- Scroll UX, sticky & 'on view'
+- App shell
+- Vanila router SPA and events
+- Page transition FX
+- Swipe/touch Gesture
+- SPA to App store via phone gap. ( aka Mobile first )
+- Shopping cart
+- CSS customization
+- Test that you can SSH into Docker service
 
 ### prespective and cost cutting
-- crud - reduce
-- auth
-- ecom
-- interactions
-- make a plugin
-- 0 full stack/ algol | JSX
-- prior (LAMP) generation
+- Example Meta App / Admin
+- Setup a container image inside Docker (install LAMP)
+- Add a page via Wed Admin
+- Good FW and bad FW. Easter egg ( Riot )
+- Eschew programing list (Serverless, LAMP, .js )
+- Embrace UX focus
