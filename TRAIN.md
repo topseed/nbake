@@ -29,8 +29,11 @@ Student HW: Install Docker service on a host in the Cloud. Vultr has Windows
 Student HW: Docker pull
 - Example Meta App / Admin
 - Setup a container image inside Docker (install LAMP)
-- Add a page via Wed Admin
+- Add a page to S3 app via Wed Admin
 - Update SEO
+- Web IDE of the S3 app
+- Edit the Docker meta admin app with new menu for your customer
+- Dictionary: app vs admin app; member vs customer
 - Good FW and bad FW. ( Easter egg Riot )
 - Make a new plugin
 - Eschew programing list (Serverless, LAMP, .js )
