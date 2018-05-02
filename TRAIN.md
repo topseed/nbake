@@ -22,6 +22,8 @@ Student HW: Install Docker service on a host in the Cloud. Vultr has Windows
 - Shopping cart
 - CSS customization
 - Test that you can SSH into Docker service
+( ex: http://vultr.com/docs/how-to-connect-to-windows-server-with-rdp
+)
 
 ### prespective and cost cutting
 Student HW: Docker pull
