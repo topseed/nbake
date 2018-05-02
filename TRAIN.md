@@ -2,7 +2,7 @@
 ## 10 commandments for the confident tech manager, by example:
 
 ### foundation, serverless and markup
-Student HW: Create S3 account.
+Student HW: Create S3 account and install CloudBerry
 - Markdown vs markup via Pug
 - Serverless FTP Deploy to S3, CDN77
 - Static binding /blog
@@ -24,6 +24,7 @@ Student HW: Install Docker service on a host in the Cloud. Vultr has Windows
 - Test that you can SSH into Docker service
 
 ### prespective and cost cutting
+Student HW: Docker pull
 - Example Meta App / Admin
 - Setup a container image inside Docker (install LAMP)
 - Add a page via Wed Admin
