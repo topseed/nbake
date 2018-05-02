@@ -6,7 +6,7 @@ Student HW: Create S3 account.
 - Markdown vs markup via Pug
 - Serverless FTP Deploy to S3, CDN77
 - Static binding /blog
-- Webmaster by google, demo AMP via pug
+- Webmaster by google, demo AMP via pug, SEO
 - Serverless Auth with FireBase, secure some pages for members only
 - Dynamic binding with pug, w/ FireBase call
 
@@ -27,6 +27,8 @@ Student HW: Install Docker service on a host in the Cloud. Vultr has Windows
 - Example Meta App / Admin
 - Setup a container image inside Docker (install LAMP)
 - Add a page via Wed Admin
-- Good FW and bad FW. Easter egg ( Riot )
+- Update SEO
+- Good FW and bad FW. ( Easter egg Riot )
+- Make a new plugin
 - Eschew programing list (Serverless, LAMP, .js )
 - Embrace UX focus
