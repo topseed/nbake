@@ -21,7 +21,8 @@ Student HW: Install Docker service on a host in the Cloud. Vultr has Windows
 - SPA to App store via phone gap. ( aka Mobile first )
 - Shopping cart
 - CSS customization
-- run meta as daem
+- run meta as daemon
+- npm publish
 - Test that you can SSH into Docker service
 ( ex: http://vultr.com/docs/how-to-connect-to-windows-server-with-rdp
 )
@@ -29,6 +30,7 @@ Student HW: Install Docker service on a host in the Cloud. Vultr has Windows
 ### prespective and cost cutting
 Student HW: Docker pull
 - Example Meta App / Admin
+ -nom i
 - Setup a container image inside Docker (install LAMP)
 - Add a page to S3 app via Wed Admin
 - Update SEO
