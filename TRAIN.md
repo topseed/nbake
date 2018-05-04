@@ -23,6 +23,7 @@ Student HW: Create S3 account and install FTP
 -  ( after 6/1 Stripe shopping cart )
 - CSS customization
 - run meta as daemon
+- Hosted dev enviroment.
 
 ### prespective, meta and cost cutting
 ( after 6/1 
