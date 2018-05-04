@@ -40,3 +40,5 @@ Student HW: Install Docker service on a host in the Cloud. Vultr has Windows
 - Dictionary?: app vs admin app/back end 
 - Make a new plugin
 - (after 6/1 Drag and drop for admin )
+- (Codiad after 6/1)
+- Admin for Blog 
