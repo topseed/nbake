@@ -7,32 +7,30 @@ Student HW: Create S3 account and install FTP
 - Scripted build in js vs GULP
 - Serverless FTP Deploy to S3, CDN77
 - Website -> webapp = binding
-- Static binding /blog
+- Static binding /blog page
 - Webmaster by google, (demo AMP via pug after 6/1), SEO
-- Serverless Auth with FireBase ( secure some pages for members only - after 6/1 )
+-  (  Serverless Auth with FireBase secure some pages for members only - after 6/1 )
 - Dynamic binding with pug, w/ FireBase call
-- Reporiting (datatables w/ firestore )
+- ( Reporint (datatables w/ firestore  after 6/1)
 - CSS customization
 
 ### b&m and embrace UX focus:
 - Use a plugin
 - dynamic binding with riot
-- Good FW and bad FW. ( Easter egg Riot )
-- App shell
+- App shell / PWA
 - Scroll UX, sticky & 'on viewport' / infiniscroll
 - Vanila TS router SPA and events
-- Router page transition FX
-(fix 0-100)
-- Swipe/touch Gesture of FX
+- Good FW and bad FW/ Riot binding, local
+- Router page transition FX example
+- Swipe/touch Gesture of FX example
 - SPA to App store via phone gap. ( aka Mobile first )
--  ( after 6/1 Stripe shopping cart )
+-  ( * Ecom, after 6/1 Stripe checkout )
 - run meta as daemon
-- Web IDE, 3rd party on S3
+- Web IDE, 3rd party on S3 vs FTP
 - Hosted dev enviroment. Build server, release engineer
 
 ### prespective, meta and cost cutting
 (  Co hosting
-
  ex: http://vultr.com/docs/how-to-connect-to-windows-server-with-rdp
  docker pull
  WE INSTALL
@@ -46,8 +44,25 @@ Student HW: Create S3 account and install FTP
 - Edit the Docker meta admin app with new menu for your customer
 - Dictionary?: app vs admin app/back end
 - Make a new plugin
-- (after 6/1 Drag and drop for admin )
 - (Codiad after 6/1)
 - Admin for Blog
 - Cordova
 - Solutions development.
+
+
+## '10' conclusion, the secret List for managers:
+
+1. like PHP philosophy, avoid (js) programing, avoid programers that program
+2. serverless, less staff/ less stuff / less $
+3. embrace cloud build server / admin with resources
+4. PWA/SPA = native mobile via cross platorm > SEO
+5. Deploy very often
+6. UX ! FX ! Gestures! 
+7. Cloud IDE make it accessible. And secure.
+9. ...
+10. List of usefull api. Log. Alogolia. FireStore. FireAuth. Stripe.
+
+Other:
+Brading, we got 4: nbake.org, metabake.org, wordpug, narwhall.
+That is confusing.
+Our main value I think is meta. We should have on brand till we get to 100 develoopers. What?
