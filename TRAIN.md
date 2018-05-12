@@ -53,7 +53,7 @@ Student HW: Create S3 account and install FTP
 ## '10' conclusion, the secret List for managers:
 
 0. 1 GL < 2 GL < 3 GL < LAMP
-1. like PHP philosophy, avoid (js) programing, avoid programers that program
+1. Triage the project priorities. Doing a study/prototype is OK
 2. serverless, less staff/ less stuff / less $
 3. embrace cloud build server / admin with resources
 4. PWA/SPA = native mobile via cross platorm > SEO
@@ -62,6 +62,7 @@ Student HW: Create S3 account and install FTP
 7. Cloud IDE make it accessible. Anyone that knows HTML can edit. And secure.
 8. Hourly consulting vs fixed bid
 9. List of usefull api. Log. Alogolia. FireStore. FireAuth. Stripe.
+10. like PHP philosophy, avoid (js) programing, avoid programers that program
 
 Other:
 Brading, we got 4: nbake.org, metabake.org, wordpug, narwhall.
