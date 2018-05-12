@@ -3,7 +3,7 @@
 
 ### foundation, serverless, markup, eschew programing
 Student HW: Create S3 account and install FTP
-- Markdown vs markup via Pug
+- Markdown vs markup via Pug (your second hire)
 - Scripted build in js vs GULP
 - Serverless FTP Deploy to S3, CDN77
 - Website -> webapp = binding
@@ -60,8 +60,8 @@ Student HW: Create S3 account and install FTP
 5. Deploy very often
 6. UX ! FX ! Gestures!
 7. Cloud IDE make it accessible. Anyone that knows HTML can edit. And secure.
-9. ...
-10. List of usefull api. Log. Alogolia. FireStore. FireAuth. Stripe.
+8. Hourly consulting vs fixed bid
+9. List of usefull api. Log. Alogolia. FireStore. FireAuth. Stripe.
 
 Other:
 Brading, we got 4: nbake.org, metabake.org, wordpug, narwhall.
