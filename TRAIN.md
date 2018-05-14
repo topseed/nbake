@@ -6,6 +6,7 @@ Student HW: Create S3 account and install FTP
 - Markdown vs markup via Pug (your second hire)
 - Scripted build in js vs GULP
 - Serverless FTP Deploy to S3, CDN77
+- SSR ex: Stripe + Heroku
 - Website -> webapp = binding
 - Static binding /blog page
 - Webmaster by google, (demo AMP via pug after 6/1), SEO
