@@ -65,6 +65,7 @@ Student HW: Create S3 account and install FTP
 9. List of usefull api. Log. Alogolia. FireStore. FireAuth. Stripe.
 10. like PHP philosophy, avoid (js) programing, avoid programers that program
 11. You content creator? That is your developer
+12. Rapid prototyep
 
 Other:
 Brading, we got 4: nbake.org, metabake.org, wordpug, narwhall.
