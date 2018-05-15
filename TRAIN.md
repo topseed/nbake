@@ -64,7 +64,7 @@ Student HW: Create S3 account and install FTP
 8. Hourly consulting vs fixed bid. If you book hours, you get hours.
 9. List of usefull api. Log. Alogolia. FireStore. FireAuth. Stripe.
 10. like PHP philosophy, avoid (js) programing, avoid programers that program
-11. You content creator/writer? That is your developer
+11. You content creator? That is your developer
 
 Other:
 Brading, we got 4: nbake.org, metabake.org, wordpug, narwhall.
