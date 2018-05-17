@@ -71,3 +71,7 @@ Other:
 Brading, we got 4: nbake.org, metabake.org, wordpug, narwhall.
 That is confusing.
 Our main value I think is meta. We should have on brand till we get to 100 develoopers. What?
+
+resume driven development
+
+title: from building webapps, to meta building, the next jump
